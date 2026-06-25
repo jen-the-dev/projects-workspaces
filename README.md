@@ -22,18 +22,13 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** presentat
 - [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker) — product-style feature implementation and workflow/state management.
 - [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components) — reusable component engineering with accessibility-first implementation.
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static) — API and static delivery patterns supporting deployable web services.
-- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) — full-stack experimentation demonstrating iterative product development.
 
 ## Additional engineering depth
 - [NeuroShell](https://github.com/jen-the-dev/NeuroShell) — buildathon project showing rapid solution design and implementation.
 - [focus-guard](https://github.com/jen-the-dev/focus-guard) — productivity tooling with practical software design decisions.
-- [playlist-curator](https://github.com/jen-the-dev/playlist-curator) — automation scripting and integration workflow engineering.
-- [metalmenders](https://github.com/jen-the-dev/metalmenders) — experimental sandbox demonstrating prototyping and iteration.
 - [cursor-themes](https://github.com/jen-the-dev/cursor-themes) — extension/theming customization with packaging and maintainability practices.
 - [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes) — editor theme development and release-ready repository structure.
 - [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes) — additional theming work evidencing consistency across toolchains.
-- [apple-bce-drv](https://github.com/jen-the-dev/apple-bce-drv) — low-level systems/driver-oriented development exposure.
-- [apple-ib-drv](https://github.com/jen-the-dev/apple-ib-drv) — systems programming depth and hardware-adjacent engineering practices.
 - [clerk-nextjs-starter](https://github.com/jen-the-dev/clerk-nextjs-starter) — modern auth-enabled web app starter architecture.
 
 ## Portfolio infrastructure
