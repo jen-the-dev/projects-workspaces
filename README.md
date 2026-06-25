@@ -38,9 +38,10 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** presentat
 
 ## Portfolio infrastructure
 - Workspace/config tracker: [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces)
+- Application material template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/cicd-automated-infrastructure/blob/main/cover-letter-anzsco-261312.md)
 
 ## Suggested review order for assessors
-1. Core showcase repositories (first four links).
+1. Core showcase anchor projects (`cloud-native-task-management-api`, `multi-platform-ecommerce-web-app`, `realtime-data-streaming-dashboard`, `cicd-automated-infrastructure`).
 2. Domain-strength Rails/API repositories.
 3. Supporting tooling/system-depth repositories.
 4. Infrastructure and workspace tracker for portfolio organization context.
