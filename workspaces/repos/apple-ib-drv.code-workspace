@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "apple-ib-drv",
+      "path": "../../drivers/apple-ib-drv"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

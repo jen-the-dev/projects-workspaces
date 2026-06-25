@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "cursor-themes",
+      "path": "../../cursor-themes"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

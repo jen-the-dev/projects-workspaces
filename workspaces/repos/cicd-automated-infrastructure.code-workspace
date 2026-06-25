@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "cicd-automated-infrastructure",
+      "path": "../../nz-aewv/cicd-automated-infrastructure"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

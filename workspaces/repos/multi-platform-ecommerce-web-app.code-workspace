@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "multi-platform-ecommerce-web-app",
+      "path": "../../nz-aewv/multi-platform-ecommerce-web-app"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

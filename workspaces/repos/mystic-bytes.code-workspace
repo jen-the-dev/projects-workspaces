@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "mystic-bytes",
+      "path": "../../nz-aewv/mystic-bytes"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

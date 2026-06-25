@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "NeuroShell",
+      "path": "../buildathons/NeuroShell"
+    },
+    {
+      "name": "focus-guard",
+      "path": "../buildathons/focus-guard"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "wellington-fintech-rails-api",
+      "path": "../../nz-aewv/wellington-fintech-rails-api"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

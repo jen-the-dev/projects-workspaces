@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "nz-immigration-application-tracker",
+      "path": "../../nz-aewv/nz-immigration-application-tracker"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "playlist-curator",
+      "path": "../../playlist-curator"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

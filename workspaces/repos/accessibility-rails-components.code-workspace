@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "accessibility-rails-components",
+      "path": "../../nz-aewv/accessibility-rails-components"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

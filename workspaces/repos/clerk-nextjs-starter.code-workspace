@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "clerk-nextjs-starter",
+      "path": "../../../clerk-nextjs-starter"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

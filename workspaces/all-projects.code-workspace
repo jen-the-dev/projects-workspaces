@@ -1,0 +1,77 @@
+{
+  "folders": [
+    {
+      "name": "NeuroShell",
+      "path": "../buildathons/NeuroShell"
+    },
+    {
+      "name": "focus-guard",
+      "path": "../buildathons/focus-guard"
+    },
+    {
+      "name": "wellington-fintech-rails-api",
+      "path": "../nz-aewv/wellington-fintech-rails-api"
+    },
+    {
+      "name": "wellington-api-static",
+      "path": "../nz-aewv/wellington-api-static"
+    },
+    {
+      "name": "nz-immigration-application-tracker",
+      "path": "../nz-aewv/nz-immigration-application-tracker"
+    },
+    {
+      "name": "accessibility-rails-components",
+      "path": "../nz-aewv/accessibility-rails-components"
+    },
+    {
+      "name": "mystic-bytes",
+      "path": "../nz-aewv/mystic-bytes"
+    },
+    {
+      "name": "cloud-native-task-management-api",
+      "path": "../nz-aewv/cloud-native-task-management-api"
+    },
+    {
+      "name": "multi-platform-ecommerce-web-app",
+      "path": "../nz-aewv/multi-platform-ecommerce-web-app"
+    },
+    {
+      "name": "realtime-data-streaming-dashboard",
+      "path": "../nz-aewv/realtime-data-streaming-dashboard"
+    },
+    {
+      "name": "cicd-automated-infrastructure",
+      "path": "../nz-aewv/cicd-automated-infrastructure"
+    },
+    {
+      "name": "metalmenders",
+      "path": "../sandbox/metalmenders"
+    },
+    {
+      "name": "apple-bce-drv",
+      "path": "../drivers/apple-bce-drv"
+    },
+    {
+      "name": "apple-ib-drv",
+      "path": "../drivers/apple-ib-drv"
+    },
+    {
+      "name": "zed-mtg-themes",
+      "path": "../zed-themes/zed-mtg-themes"
+    },
+    {
+      "name": "cyberpunk-zed-themes",
+      "path": "../zed-themes/cyberpunk-zed-themes"
+    },
+    {
+      "name": "nvm",
+      "path": "../forks/nvm"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

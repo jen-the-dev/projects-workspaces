@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "realtime-data-streaming-dashboard",
+      "path": "../../nz-aewv/realtime-data-streaming-dashboard"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

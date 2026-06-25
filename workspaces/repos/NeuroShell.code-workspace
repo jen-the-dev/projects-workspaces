@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "NeuroShell",
+      "path": "../../buildathons/NeuroShell"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "cyberpunk-zed-themes",
+      "path": "../../zed-themes/cyberpunk-zed-themes"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

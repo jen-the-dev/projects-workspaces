@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "zed-mtg-themes",
+      "path": "../zed-themes/zed-mtg-themes"
+    },
+    {
+      "name": "cyberpunk-zed-themes",
+      "path": "../zed-themes/cyberpunk-zed-themes"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "apple-bce-drv",
+      "path": "../../drivers/apple-bce-drv"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

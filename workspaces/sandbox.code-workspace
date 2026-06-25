@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "metalmenders",
+      "path": "../sandbox/metalmenders"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

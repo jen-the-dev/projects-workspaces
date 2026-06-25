@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "zed-mtg-themes",
+      "path": "../../zed-themes/zed-mtg-themes"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

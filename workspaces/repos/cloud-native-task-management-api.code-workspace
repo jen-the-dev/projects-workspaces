@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "cloud-native-task-management-api",
+      "path": "../../nz-aewv/cloud-native-task-management-api"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}

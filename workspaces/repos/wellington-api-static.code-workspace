@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "wellington-api-static",
+      "path": "../../nz-aewv/wellington-api-static"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true
+    }
+  }
+}
