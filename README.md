@@ -6,28 +6,35 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** presentat
 - Evidence of software design, implementation, testing, deployment, and maintainability practices.
 - Repository set organized for fast assessor review and jobhunting presentation.
 
+## ANZSCO 261312 competency coverage
+- **Programming and implementation**: API development, full-stack delivery, and production-ready coding patterns.
+- **System and software design**: architecture-focused repositories showing modular design and service integration.
+- **Testing and quality assurance**: unit/integration testing and CI workflows embedded across showcase projects.
+- **Deployment and operations**: containerization, infrastructure-as-code, and automated pipeline evidence.
+- **Maintenance and documentation**: recruiter/assessor-ready README structure with consistent evidence mapping.
+
 ## Core ANZSCO 261312 showcase repositories
-- [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api)
-- [multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app)
-- [realtime-data-streaming-dashboard](https://github.com/jen-the-dev/realtime-data-streaming-dashboard)
-- [cicd-automated-infrastructure](https://github.com/jen-the-dev/cicd-automated-infrastructure)
-- [wellington-fintech-rails-api](https://github.com/jen-the-dev/wellington-fintech-rails-api)
-- [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker)
-- [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)
-- [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static)
-- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes)
+- [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api) — backend API design, authentication, CRUD workflows, and Dockerized delivery.
+- [multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app) — full-stack commerce flow integrating frontend, backend, and transactional operations.
+- [realtime-data-streaming-dashboard](https://github.com/jen-the-dev/realtime-data-streaming-dashboard) — asynchronous data ingestion, realtime visualization, and external API handling.
+- [cicd-automated-infrastructure](https://github.com/jen-the-dev/cicd-automated-infrastructure) — CI/CD automation, IaC patterns, and deployment lifecycle evidence.
+- [wellington-fintech-rails-api](https://github.com/jen-the-dev/wellington-fintech-rails-api) — Rails API engineering with domain-focused service design.
+- [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker) — product-style feature implementation and workflow/state management.
+- [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components) — reusable component engineering with accessibility-first implementation.
+- [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static) — API and static delivery patterns supporting deployable web services.
+- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) — full-stack experimentation demonstrating iterative product development.
 
 ## Additional engineering depth
-- [NeuroShell](https://github.com/jen-the-dev/NeuroShell)
-- [focus-guard](https://github.com/jen-the-dev/focus-guard)
-- [playlist-curator](https://github.com/jen-the-dev/playlist-curator)
-- [metalmenders](https://github.com/jen-the-dev/metalmenders)
-- [cursor-themes](https://github.com/jen-the-dev/cursor-themes)
-- [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes)
-- [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes)
-- [apple-bce-drv](https://github.com/jen-the-dev/apple-bce-drv)
-- [apple-ib-drv](https://github.com/jen-the-dev/apple-ib-drv)
-- [clerk-nextjs-starter](https://github.com/jen-the-dev/clerk-nextjs-starter)
+- [NeuroShell](https://github.com/jen-the-dev/NeuroShell) — buildathon project showing rapid solution design and implementation.
+- [focus-guard](https://github.com/jen-the-dev/focus-guard) — productivity tooling with practical software design decisions.
+- [playlist-curator](https://github.com/jen-the-dev/playlist-curator) — automation scripting and integration workflow engineering.
+- [metalmenders](https://github.com/jen-the-dev/metalmenders) — experimental sandbox demonstrating prototyping and iteration.
+- [cursor-themes](https://github.com/jen-the-dev/cursor-themes) — extension/theming customization with packaging and maintainability practices.
+- [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes) — editor theme development and release-ready repository structure.
+- [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes) — additional theming work evidencing consistency across toolchains.
+- [apple-bce-drv](https://github.com/jen-the-dev/apple-bce-drv) — low-level systems/driver-oriented development exposure.
+- [apple-ib-drv](https://github.com/jen-the-dev/apple-ib-drv) — systems programming depth and hardware-adjacent engineering practices.
+- [clerk-nextjs-starter](https://github.com/jen-the-dev/clerk-nextjs-starter) — modern auth-enabled web app starter architecture.
 
 ## Portfolio infrastructure
 - Workspace/config tracker: [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces)
@@ -36,6 +43,7 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** presentat
 1. Core showcase repositories (first four links).
 2. Domain-strength Rails/API repositories.
 3. Supporting tooling/system-depth repositories.
+4. Infrastructure and workspace tracker for portfolio organization context.
 
 ## Local workspace shortcuts
 - Jobhunting presentation set: `workspaces/developer-programmer-jobhunt.code-workspace`
