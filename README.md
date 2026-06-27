@@ -29,7 +29,7 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 ## Application and portfolio infrastructure
 - [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker) — resume/cover-letter package and submission tracker.
 - [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces) — workspace and portfolio configuration repository.
-- Cover letter template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/cicd-automated-infrastructure/blob/main/cover-letter-anzsco-261312.md)
+- Cover letter template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/nz-immigration-application-tracker/blob/main/cover-letter-anzsco-261312.md)
 
 ## Suggested review order
 1. Core 261312 showcase repositories.
