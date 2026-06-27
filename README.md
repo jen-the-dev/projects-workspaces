@@ -17,7 +17,7 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - [wellington-fintech-rails-api](https://github.com/jen-the-dev/wellington-fintech-rails-api) — domain-focused Rails API design and backend service modeling.
 - [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components) — reusable Rails component engineering with accessibility-first implementation.
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static) — static API documentation and lightweight delivery patterns.
-- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) — structured portfolio site architecture and frontend presentation workflow.
+- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) — adapted work: structured portfolio site architecture and frontend presentation workflow.
 
 ### Complementary role evidence (adjacent ANZSCO coverage)
 - **Systems Analyst (261112)**: [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform)
@@ -52,7 +52,7 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 
 ### Frontend UX and accessibility engineering
 - [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)
-- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes)
+- [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) (adapted work)
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static)
 
 ### Application theming and design customization
