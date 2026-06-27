@@ -23,6 +23,10 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - **Systems Analyst (261112)**: [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform)
 - **Systems Administrator (262113)**: [linux-hardening-patch-orchestration-lab](https://github.com/jen-the-dev/linux-hardening-patch-orchestration-lab)
 - **ICT Support Engineer (263212)**: [ict-support-service-desk-automation-portal](https://github.com/jen-the-dev/ict-support-service-desk-automation-portal)
+- **Multimedia Specialist (261211)**: application theming and visual customization
+  - [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes)
+  - [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes)
+  - [cursor-themes](https://github.com/jen-the-dev/cursor-themes)
 
 ## Axis 2: Projects by hireable skill
 ### Backend API engineering
@@ -50,6 +54,11 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)
 - [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes)
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static)
+
+### Application theming and design customization
+- [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes)
+- [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes)
+- [cursor-themes](https://github.com/jen-the-dev/cursor-themes)
 
 ### Systems analysis and support automation
 - [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform)
