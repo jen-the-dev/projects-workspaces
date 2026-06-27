@@ -14,10 +14,15 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - [event-driven-integrations-platform](https://github.com/jen-the-dev/event-driven-integrations-platform) — resilient third-party integrations with retries, idempotency, and webhook delivery.
 - [rbac-auth-audit-service](https://github.com/jen-the-dev/rbac-auth-audit-service) — role-based auth, session lifecycle control, and audit logging in Go.
 - [data-pipeline-observability-qa-suite](https://github.com/jen-the-dev/data-pipeline-observability-qa-suite) — ingest/transform/report pipeline with observability metrics, traces, and synthetic QA checks.
+- [clerk-nextjs-starter](https://github.com/jen-the-dev/clerk-nextjs-starter) — auth-enabled Next.js starter architecture for production-style application delivery.
+- [NeuroShell](https://github.com/jen-the-dev/NeuroShell) — native terminal application implementation for developer productivity workflows.
+- [focus-guard](https://github.com/jen-the-dev/focus-guard) — Envoy extension module demonstrating runtime policy and focus-control logic.
 - [wellington-fintech-rails-api](https://github.com/jen-the-dev/wellington-fintech-rails-api) — domain-focused Rails API design and backend service modeling.
 - [accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components) — reusable Rails component engineering with accessibility-first implementation.
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static) — static API documentation and lightweight delivery patterns.
 - [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) — adapted work: structured portfolio site architecture and frontend presentation workflow.
+- [apple-bce-drv](https://github.com/jen-the-dev/apple-bce-drv) — forked reference: Apple driver adaptation and systems-level implementation context.
+- [apple-ib-drv](https://github.com/jen-the-dev/apple-ib-drv) — forked reference: Apple driver integration and low-level platform adaptation context.
 
 ### Complementary role evidence (adjacent ANZSCO coverage)
 - **Systems Analyst (261112)**: [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform)
@@ -37,10 +42,12 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 ### Full-stack product delivery
 - [multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app)
 - [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker)
+- [clerk-nextjs-starter](https://github.com/jen-the-dev/clerk-nextjs-starter)
 
 ### Security, authentication, and compliance-aware development
 - [rbac-auth-audit-service](https://github.com/jen-the-dev/rbac-auth-audit-service)
 - [wellington-fintech-rails-api](https://github.com/jen-the-dev/wellington-fintech-rails-api)
+- [focus-guard](https://github.com/jen-the-dev/focus-guard)
 
 ### Data engineering and realtime systems
 - [realtime-data-streaming-dashboard](https://github.com/jen-the-dev/realtime-data-streaming-dashboard)
@@ -55,6 +62,9 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - [mystic-bytes](https://github.com/jen-the-dev/mystic-bytes) (adapted work)
 - [wellington-api-static](https://github.com/jen-the-dev/wellington-api-static)
 
+### Native application engineering
+- [NeuroShell](https://github.com/jen-the-dev/NeuroShell)
+
 ### Application theming and design customization
 - [cyberpunk-zed-themes](https://github.com/jen-the-dev/cyberpunk-zed-themes)
 - [zed-mtg-themes](https://github.com/jen-the-dev/zed-mtg-themes)
@@ -63,6 +73,10 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 ### Systems analysis and support automation
 - [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform)
 - [ict-support-service-desk-automation-portal](https://github.com/jen-the-dev/ict-support-service-desk-automation-portal)
+
+### Platform and driver adaptation (forked references)
+- [apple-bce-drv](https://github.com/jen-the-dev/apple-bce-drv) (forked reference)
+- [apple-ib-drv](https://github.com/jen-the-dev/apple-ib-drv) (forked reference)
 
 ## Application and portfolio infrastructure
 - [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker) — resume/cover-letter package and submission tracker.
