@@ -5,6 +5,10 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - End-to-end software delivery across backend APIs, full-stack systems, realtime processing, security services, and CI/CD automation.
 - Demonstrated software design, implementation, testing, deployment, and documentation practices.
 - Repository structure organized for fast recruiter and assessor review.
+## Repository metadata status
+- ANZSCO-relevant repository descriptions have been standardized with explicit code tags in GitHub About metadata.
+- Current coverage reflected in descriptions: **261312**, **261112**, **262113**, **263212**, and **261211**.
+- Portfolio links in this README have been revalidated and currently resolve.
 ## Axis 1: Projects by job role
 ### Primary target role — Developer Programmer (ANZSCO 261312)
 - [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api) — backend API design, authentication, CRUD workflows, and Dockerized delivery.
