@@ -117,3 +117,37 @@ test("allows overriding action IDs via render context", () => {
     DEFAULT_MICROSTEP_ACTION_IDS.snooze15
   ]);
 });
+
+test("renders dyscalculia-friendly phrasing for duration and quantity when enabled", () => {
+  const blocks = buildMicrostepBlocks(
+    {
+      step_text: "Upload 2 receipts in 10 minutes.",
+      duration_minutes: 30,
+      success_criteria: "2 receipts are uploaded.",
+      fallback_if_stuck: "Review 1 receipt first.",
+      clarifying_question: "Can you finish this in 15 min?"
+    },
+    {
+      sessionId: "session_5",
+      stepId: "step_5",
+      dyscalculiaFriendlyPhrasing: true
+    }
+  );
+
+  const actionSection = blocks[2] as { text: { text: string } };
+  const timeContext = blocks[3] as { elements: Array<{ text: string }> };
+  const guidanceSection = blocks[4] as { fields: Array<{ text: string }> };
+  const clarificationSection = blocks[5] as { text: { text: string } };
+  const actionsBlock = blocks[6] as {
+    elements: Array<{ text: { text: string } }>;
+  };
+
+  assert.match(actionSection.text.text, /Upload two receipts/);
+  assert.match(actionSection.text.text, /one ten-minute block/);
+  assert.match(timeContext.elements[0].text, /two blocks of fifteen minutes/);
+  assert.match(guidanceSection.fields[0].text, /two receipts are uploaded/);
+  assert.match(guidanceSection.fields[1].text, /Review one receipt first/);
+  assert.match(clarificationSection.text.text, /one fifteen-minute block/);
+  assert.equal(actionsBlock.elements[0].text.text, "Start two blocks of fifteen minutes");
+  assert.equal(actionsBlock.elements[3].text.text, "Snooze fifteen minutes");
+});

@@ -1,5 +1,9 @@
 export { buildMicrostepBlocks } from "./components/microstepBlocks";
 export {
+  formatDurationForDisplay,
+  formatTextForDyscalculiaSupport
+} from "./accessibility/dyscalculiaPhrasing";
+export {
   getDefaultWorkflowStore,
   handleSlackInteractivityRequest
 } from "./app/slackApp";

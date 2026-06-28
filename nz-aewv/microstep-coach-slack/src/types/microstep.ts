@@ -17,6 +17,7 @@ export interface MicrostepRenderContext {
   sessionId: string;
   stepId: string;
   actionIds?: Partial<MicrostepActionIds>;
+  dyscalculiaFriendlyPhrasing?: boolean;
 }
 
 export const DEFAULT_MICROSTEP_ACTION_IDS: MicrostepActionIds = {

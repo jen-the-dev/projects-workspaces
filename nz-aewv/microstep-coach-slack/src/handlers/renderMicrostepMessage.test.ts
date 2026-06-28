@@ -65,3 +65,25 @@ test("propagates custom action IDs and clarification content through renderer bl
   assert.match(clarificationBlock.text.text, /Quick clarification/);
   assert.match(clarificationBlock.text.text, /travel or meals/);
 });
+
+test("formats fallback message text with dyscalculia-friendly phrasing when enabled", () => {
+  const payload = renderMicrostepMessage(
+    {
+      step_text: "Upload 2 receipts in 10 min.",
+      duration_minutes: 30,
+      success_criteria: "2 receipts uploaded.",
+      fallback_if_stuck: "Review 1 receipt first.",
+      clarifying_question: null
+    },
+    {
+      sessionId: "session_12",
+      stepId: "step_12",
+      dyscalculiaFriendlyPhrasing: true
+    }
+  );
+
+  assert.equal(
+    payload.text,
+    "Next microstep: Upload two receipts in one ten-minute block. (about two blocks of fifteen minutes)."
+  );
+});

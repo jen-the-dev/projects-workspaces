@@ -1,4 +1,8 @@
 import type { Block, KnownBlock } from "@slack/types";
+import {
+  formatDurationForDisplay,
+  formatTextForDyscalculiaSupport
+} from "../accessibility/dyscalculiaPhrasing";
 
 import {
   DEFAULT_MICROSTEP_ACTION_IDS,
@@ -21,40 +25,62 @@ const buildHeaderBlock = (): KnownBlock => ({
   }
 });
 
-const buildStepBlock = (response: MicrostepResponse): KnownBlock => ({
+const buildStepBlock = (
+  response: MicrostepResponse,
+  dyscalculiaFriendlyPhrasing: boolean
+): KnownBlock => ({
   type: "section",
   text: {
     type: "mrkdwn",
-    text: `*Action now*\n${response.step_text}`
+    text: `*Action now*\n${formatTextForDyscalculiaSupport(
+      response.step_text,
+      dyscalculiaFriendlyPhrasing
+    )}`
   }
 });
 
-const buildTimeContextBlock = (response: MicrostepResponse): KnownBlock => ({
+const buildTimeContextBlock = (
+  response: MicrostepResponse,
+  dyscalculiaFriendlyPhrasing: boolean
+): KnownBlock => ({
   type: "context",
   elements: [
     {
       type: "mrkdwn",
-      text: `⏱️ Estimated time: *${response.duration_minutes} min*`
+      text: `⏱️ Estimated time: *${formatDurationForDisplay(
+        response.duration_minutes,
+        dyscalculiaFriendlyPhrasing
+      )}*`
     }
   ]
 });
 
-const buildGuidanceBlock = (response: MicrostepResponse): KnownBlock => ({
+const buildGuidanceBlock = (
+  response: MicrostepResponse,
+  dyscalculiaFriendlyPhrasing: boolean
+): KnownBlock => ({
   type: "section",
   fields: [
     {
       type: "mrkdwn",
-      text: `*Done looks like*\n${response.success_criteria}`
+      text: `*Done looks like*\n${formatTextForDyscalculiaSupport(
+        response.success_criteria,
+        dyscalculiaFriendlyPhrasing
+      )}`
     },
     {
       type: "mrkdwn",
-      text: `*If stuck*\n${response.fallback_if_stuck}`
+      text: `*If stuck*\n${formatTextForDyscalculiaSupport(
+        response.fallback_if_stuck,
+        dyscalculiaFriendlyPhrasing
+      )}`
     }
   ]
 });
 
 const buildClarifyingQuestionBlock = (
-  response: MicrostepResponse
+  response: MicrostepResponse,
+  dyscalculiaFriendlyPhrasing: boolean
 ): KnownBlock | null => {
   if (!response.clarifying_question) {
     return null;
@@ -64,20 +90,30 @@ const buildClarifyingQuestionBlock = (
     type: "section",
     text: {
       type: "mrkdwn",
-      text: `*Quick clarification*\n${response.clarifying_question}`
+      text: `*Quick clarification*\n${formatTextForDyscalculiaSupport(
+        response.clarifying_question,
+        dyscalculiaFriendlyPhrasing
+      )}`
     }
   };
 };
 
 const buildActionsBlock = (
   context: MicrostepRenderContext,
-  response: MicrostepResponse
+  response: MicrostepResponse,
+  dyscalculiaFriendlyPhrasing: boolean
 ): KnownBlock => {
   const actionIds = {
     ...DEFAULT_MICROSTEP_ACTION_IDS,
     ...context.actionIds
   };
   const value = toActionValue(context);
+  const startLabel = dyscalculiaFriendlyPhrasing
+    ? `Start ${formatDurationForDisplay(response.duration_minutes, true)}`
+    : `Start ${response.duration_minutes} min`;
+  const snoozeLabel = dyscalculiaFriendlyPhrasing
+    ? "Snooze fifteen minutes"
+    : "Snooze 15m";
 
   return {
     type: "actions",
@@ -86,7 +122,7 @@ const buildActionsBlock = (
         type: "button",
         text: {
           type: "plain_text",
-          text: `Start ${response.duration_minutes} min`,
+          text: startLabel,
           emoji: true
         },
         action_id: actionIds.startFocus,
@@ -117,7 +153,7 @@ const buildActionsBlock = (
         type: "button",
         text: {
           type: "plain_text",
-          text: "Snooze 15m",
+          text: snoozeLabel,
           emoji: true
         },
         action_id: actionIds.snooze15,
@@ -131,15 +167,20 @@ export const buildMicrostepBlocks = (
   response: MicrostepResponse,
   context: MicrostepRenderContext
 ): (KnownBlock | Block)[] => {
-  const clarifyingBlock = buildClarifyingQuestionBlock(response);
+  const dyscalculiaFriendlyPhrasing =
+    context.dyscalculiaFriendlyPhrasing === true;
+  const clarifyingBlock = buildClarifyingQuestionBlock(
+    response,
+    dyscalculiaFriendlyPhrasing
+  );
 
   return [
     buildHeaderBlock(),
     { type: "divider" },
-    buildStepBlock(response),
-    buildTimeContextBlock(response),
-    buildGuidanceBlock(response),
+    buildStepBlock(response, dyscalculiaFriendlyPhrasing),
+    buildTimeContextBlock(response, dyscalculiaFriendlyPhrasing),
+    buildGuidanceBlock(response, dyscalculiaFriendlyPhrasing),
     ...(clarifyingBlock ? [clarifyingBlock] : []),
-    buildActionsBlock(context, response)
+    buildActionsBlock(context, response, dyscalculiaFriendlyPhrasing)
   ];
 };
