@@ -14,7 +14,7 @@
 1. **[NeuroShell](https://github.com/jen-the-dev/NeuroShell)** — Shipped macOS terminal for ADHD-friendly dev workflows. **Human-Focused AI Award**, Tetrate Buildathon (170+ applicants).
 2. **[jenthedev-portfolio](https://github.com/jen-the-dev/jenthedev-portfolio)** — Live site: [jenthedev.it.com](https://jenthedev.it.com)
 3. **[focus-guard](https://github.com/jen-the-dev/focus-guard)** — Rust/Envoy dynamic module; deterministic retry guardrails for incident response.
-4. **[accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)** — WCAG-oriented Rails ViewComponents (NZ/Auckland market focus).
+4. **[accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)** — **Live:** [accessibility-rails-components.onrender.com](https://accessibility-rails-components.onrender.com) · WCAG Rails ViewComponents
 5. **[multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app)** — Next.js + Express + Stripe full-stack with CI and tests.
 
 ### Background (one paragraph)
