@@ -1,0 +1,22 @@
+{
+  "name": "microstep-coach-slack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Slack Block Kit UI components for the Microstep Coach agent.",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "manual:test-workflow": "node --import tsx ./scripts/manual-workflow-test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test --import tsx ./src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@slack/types": "^2.11.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
