@@ -87,6 +87,25 @@ This portfolio is curated for **ANZSCO 261312 (Developer Programmer)** job appli
 - [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces) — workspace and portfolio configuration repository.
 - Cover letter template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/nz-immigration-application-tracker/blob/main/cover-letter-anzsco-261312.md)
 
+## Microstep Coach Slack workflow (new)
+- Implementation lives in `nz-aewv/microstep-coach-slack`.
+- Core interaction path:
+  - render microstep cards via Block Kit components
+  - process button clicks through the app interactivity entrypoint
+  - route actions (`Start`, `Done`, `Too hard`, `Snooze 15m`) to workflow callbacks
+  - persist state transitions in the workflow store (`in_progress`, `needs_breakdown`, `snoozed`, `done`)
+- Primary integration APIs:
+  - `nz-aewv/microstep-coach-slack/src/app/slackApp.ts` → `handleSlackInteractivityRequest(...)`
+  - `nz-aewv/microstep-coach-slack/src/handlers/handleMicrostepInteraction.ts` → payload parsing/dispatch
+  - `nz-aewv/microstep-coach-slack/src/workflow/microstepWorkflow.ts` → default callback logic and state store
+
+## Workflow verification
+- Typecheck: `npm --prefix /Users/jenthedev/Projects/nz-aewv/microstep-coach-slack run typecheck`
+- Tests: `npm --prefix /Users/jenthedev/Projects/nz-aewv/microstep-coach-slack test`
+- Manual full-sequence run:
+  - `npm --prefix /Users/jenthedev/Projects/nz-aewv/microstep-coach-slack run manual:test-workflow`
+  - validates Start → Too hard → Snooze → Done state progression
+
 ## Suggested review order
 1. Axis 1 primary-role repositories (ANZSCO 261312).
 2. Axis 2 hireable-skill sections matching the target role.
