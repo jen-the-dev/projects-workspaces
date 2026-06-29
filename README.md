@@ -1,8 +1,10 @@
-# Jennifer Picado — Developer Portfolio
+# Jennifer Picado — Shipped Work
 
 **Product-minded developer** · Accessibility-first delivery · Relocating to **Auckland, NZ (2027)**
 
-## Start here (recruiters — ~60 seconds)
+Curated map of live products, demos, and repositories worth reviewing first.
+
+## Start here (~60 seconds)
 
 | What | Link |
 |------|------|
@@ -11,24 +13,24 @@
 | **LinkedIn** | [linkedin.com/in/jenthedev](https://www.linkedin.com/in/jenthedev) |
 | **GitHub profile** | [github.com/jen-the-dev](https://github.com/jen-the-dev) |
 
-### Flagship projects (review these first)
-1. **[NeuroShell](https://github.com/jen-the-dev/NeuroShell)** — Shipped macOS terminal for ADHD-friendly dev workflows. **Human-Focused AI Award**, Tetrate Buildathon (170+ applicants).
-2. **[focus-guard](https://github.com/jen-the-dev/focus-guard)** — Rust/Envoy dynamic module; deterministic retry guardrails for incident response.
+### Flagship projects
+1. **[NeuroShell](https://github.com/jen-the-dev/NeuroShell)** — macOS terminal for ADHD-friendly dev workflows. **Human-Focused AI Award**, Tetrate Buildathon.
+2. **[focus-guard](https://github.com/jen-the-dev/focus-guard)** — Rust/Envoy module that stops retry storms before they amplify incidents.
 3. **[accessibility-rails-components](https://github.com/jen-the-dev/accessibility-rails-components)** — **Live:** [accessibility-rails-components.onrender.com](https://accessibility-rails-components.onrender.com) · WCAG Rails ViewComponents
-4. **[jenthedev-portfolio](https://github.com/jen-the-dev/jenthedev-portfolio)** — Live site: [jenthedev.it.com](https://jenthedev.it.com)
-5. **[nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker)** — Rails 7 enterprise architecture sample with AI/ML integration patterns.
+4. **[jenthedev-portfolio](https://github.com/jen-the-dev/jenthedev-portfolio)** — Product site at [jenthedev.it.com](https://jenthedev.it.com)
+5. **[nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker)** — Rails document-ops app for visa checklists, versioned submissions, and evidence packs.
 
-### Background (one paragraph)
+### Background
 Enterprise UI/UX and design systems at **365 Connect** (2003–2015, remote from 2007). iOS/macOS product development via **DigitalSpellCraft** (2015–2024). Independent work from 2024: NeuroShell, full-stack web apps, and open-source tooling. Client references available on request.
 
 ---
 
-## Additional technical samples
+## More shipped work (archived on GitHub)
 
-These repos are **archived** on GitHub to keep the public profile focused. They remain available for direct review when needed.
+These repos are archived to keep the public profile focused. Direct links still work for deeper review.
 
 <details>
-<summary>Full-stack, backend, and platform samples (archived)</summary>
+<summary>Full-stack, backend, and platform work</summary>
 
 - [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api) — Dockerized REST API, Redis cache, CI/tests
 - [realtime-data-streaming-dashboard](https://github.com/jen-the-dev/realtime-data-streaming-dashboard) — WebSockets, realtime visualization
@@ -44,7 +46,7 @@ These repos are **archived** on GitHub to keep the public profile focused. They 
 </details>
 
 <details>
-<summary>Adjacent role samples (archived)</summary>
+<summary>Systems, analysis, and support tooling</summary>
 
 - [systems-analysis-traceability-platform](https://github.com/jen-the-dev/systems-analysis-traceability-platform) — Requirements-to-architecture traceability
 - [linux-hardening-patch-orchestration-lab](https://github.com/jen-the-dev/linux-hardening-patch-orchestration-lab) — Linux hardening and patch orchestration
